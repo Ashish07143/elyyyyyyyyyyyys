@@ -1,0 +1,33 @@
+# number of retries
+attempts: 2
+
+# Referral codes for accounts registration. Bot chooses random from the list
+# Can specify few in format ["code1", "code2", "code3"]
+REFERRAL_CODE: ["code123"]
+
+# Amount of tokens to swap to Elys if percent. 0.1 = 10%, 0.9 = 90%
+AMOUNT_TO_SWAP: [0.5, 0.9]
+
+# RPCs, change if you want
+ELYS_RPC: "https://rpc.testnet.elys.network/"
+
+# Pause in seconds. Example [1, 5] - pause will be random between 1 and 5 seconds.
+PAUSE_BETWEEN_SWAPS: [7, 10]
+PAUSE_BETWEEN_ACCOUNTS: [3, 5]
+
+# Initialization time used for random pause before start every account.
+# So account will not start at the same time
+INITIALIZATION_TIME: [1, 2]
+
+# mobile proxy (yes or no)
+mobile_proxy: "no"
+change_ip_pause: 20
+
+# Headless mode. Set to False if you want to see the browser, if True than bot will hide it
+HEADLESS_MODE: False
+
+# Telegram bot tokens that need to send logs.
+# Example: TELEGRAM_BOT_TOKENS: [14124598, 8923842, 8992321]
+# By default: TELEGRAM_BOT_TOKENS: []
+# TELEGRAM_BOT_TOKENS: []
+# Is not working yet
